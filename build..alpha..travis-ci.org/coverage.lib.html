@@ -1,5 +1,7 @@
-<html lang="en"><head>
-    <title>Code coverage report for node-npmtest-babel-plugin-lodash/babel-plugin-lodash/lib/ModuleCache.js</title>
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for node-npmtest-babel-plugin-lodash/node_modules/babel-plugin-lodash/lib/ModuleCache.js</title>
     <meta charset="utf-8">
     <style>
         body, html {
@@ -192,7 +194,7 @@
     <h1 style="font-weight: bold;">
         <a href="https://github.com/npmtest/node-npmtest-babel-plugin-lodash">npmtest-babel-plugin-lodash (v0.0.2)</a>
     </h1>
-    <h1>Code coverage report for <span class="entity">node-npmtest-babel-plugin-lodash/babel-plugin-lodash/lib/ModuleCache.js</span></h1>
+    <h1>Code coverage report for <span class="entity">node-npmtest-babel-plugin-lodash/node_modules/babel-plugin-lodash/lib/ModuleCache.js</span></h1>
     <h2>
         
         Statements: <span class="metric">93.41% <small>(85 / 91)</small></span> &nbsp;&nbsp;&nbsp;&nbsp;
@@ -208,11 +210,11 @@
         
         Ignored: <span class="metric"><span class="ignore-none">none</span></span> &nbsp;&nbsp;&nbsp;&nbsp;
     </h2>
-    <div class="path"><a href="../../../index.html">All files</a> » <a href="index.html">node-npmtest-babel-plugin-lodash/babel-plugin-lodash/lib/</a> » ModuleCache.js</div>
+    <div class="path"><a href="../../../../index.html">All files</a> &#187; <a href="index.html">node-npmtest-babel-plugin-lodash/node_modules/babel-plugin-lodash/lib/</a> &#187; ModuleCache.js</div>
 </div>
 <div class="body">
 <pre><table class="coverage">
-<tbody><tr><td class="line-count">1
+<tr><td class="line-count">1
 2
 3
 4
@@ -506,7 +508,7 @@ var _toString2 = require('lodash/toString');
 &nbsp;
 var _toString3 = _interopRequireDefault(_toString2);
 &nbsp;
-var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i &lt; props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; <span class="missing-if-branch" title="else path not taken">E</span>if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { <span class="missing-if-branch" title="if path not taken">I</span>if (protoProps) <span class="cstat-no" title="statement not covered">defineProperties(Constructor.prototype, protoProps); <span class="missing-if-branch" title="else path not taken">E</span></span>if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i &lt; props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; <span class="missing-if-branch" title="else path not taken" >E</span>if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { <span class="missing-if-branch" title="if path not taken" >I</span>if (protoProps) <span class="cstat-no" title="statement not covered" >defineProperties(Constructor.prototype, protoProps); <span class="missing-if-branch" title="else path not taken" >E</span></span>if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 &nbsp;
 var _fs = require('fs');
 &nbsp;
@@ -530,13 +532,13 @@ var _path = require('path');
 &nbsp;
 var _path2 = _interopRequireDefault(_path);
 &nbsp;
-function _interopRequireDefault(obj) { return obj &amp;&amp; obj.__esModule ? <span class="branch-0 cbranch-no" title="branch not covered">obj </span>: { default: obj }; }
+function _interopRequireDefault(obj) { return obj &amp;&amp; obj.__esModule ? <span class="branch-0 cbranch-no" title="branch not covered" >obj </span>: { default: obj }; }
 &nbsp;
-function _classCallCheck(instance, Constructor) { <span class="missing-if-branch" title="if path not taken">I</span>if (!(instance instanceof Constructor)) { <span class="cstat-no" title="statement not covered">throw new TypeError("Cannot call a class as a function"); </span>} }
+function _classCallCheck(instance, Constructor) { <span class="missing-if-branch" title="if path not taken" >I</span>if (!(instance instanceof Constructor)) { <span class="cstat-no" title="statement not covered" >throw new TypeError("Cannot call a class as a function"); </span>} }
 &nbsp;
-function _possibleConstructorReturn(self, call) { <span class="missing-if-branch" title="if path not taken">I</span>if (!self) { <span class="cstat-no" title="statement not covered">throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); </span>} return call &amp;&amp; (typeof call === "object" || <span class="branch-2 cbranch-no" title="branch not covered">typeof call === "function")</span> ? call : <span class="branch-1 cbranch-no" title="branch not covered">self;</span> }
+function _possibleConstructorReturn(self, call) { <span class="missing-if-branch" title="if path not taken" >I</span>if (!self) { <span class="cstat-no" title="statement not covered" >throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); </span>} return call &amp;&amp; (typeof call === "object" || <span class="branch-2 cbranch-no" title="branch not covered" >typeof call === "function")</span> ? call : <span class="branch-1 cbranch-no" title="branch not covered" >self;</span> }
 &nbsp;
-function _inherits(subClass, superClass) { <span class="missing-if-branch" title="if path not taken">I</span>if (typeof superClass !== "function" &amp;&amp; <span class="branch-1 cbranch-no" title="branch not covered">superClass !== null)</span> { <span class="cstat-no" title="statement not covered">throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); </span>} subClass.prototype = Object.create(superClass &amp;&amp; superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); <span class="missing-if-branch" title="else path not taken">E</span>if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : <span class="branch-1 cbranch-no" title="branch not covered">subClass.__proto__ = superClass;</span> }
+function _inherits(subClass, superClass) { <span class="missing-if-branch" title="if path not taken" >I</span>if (typeof superClass !== "function" &amp;&amp; <span class="branch-1 cbranch-no" title="branch not covered" >superClass !== null)</span> { <span class="cstat-no" title="statement not covered" >throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); </span>} subClass.prototype = Object.create(superClass &amp;&amp; superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); <span class="missing-if-branch" title="else path not taken" >E</span>if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : <span class="branch-1 cbranch-no" title="branch not covered" >subClass.__proto__ = superClass;</span> }
 &nbsp;
 /*----------------------------------------------------------------------------*/
 &nbsp;
@@ -546,14 +548,14 @@ var ModuleCache = function (_MapCache) {
   function ModuleCache(moduleRoot) {
     _classCallCheck(this, ModuleCache);
 &nbsp;
-    var _this = _possibleConstructorReturn(this, (ModuleCache.__proto__ || <span class="branch-1 cbranch-no" title="branch not covered">Object.getPrototypeOf(ModuleCache))</span>.call(this));
+    var _this = _possibleConstructorReturn(this, (ModuleCache.__proto__ || <span class="branch-1 cbranch-no" title="branch not covered" >Object.getPrototypeOf(ModuleCache))</span>.call(this));
 &nbsp;
     moduleRoot = (0, _toString3.default)(moduleRoot);
-    <span class="missing-if-branch" title="if path not taken">I</span>if (!moduleRoot) {
-<span class="cstat-no" title="statement not covered">      return _possibleConstructorReturn(_this);</span>
+    <span class="missing-if-branch" title="if path not taken" >I</span>if (!moduleRoot) {
+<span class="cstat-no" title="statement not covered" >      return _possibleConstructorReturn(_this);</span>
     }
     var pkgPath = _path2.default.join(moduleRoot, 'package.json');
-    var pkg = _fs2.default.existsSync(pkgPath) ? require(pkgPath) : <span class="branch-1 cbranch-no" title="branch not covered">{ 'main': 'index.js' };</span>
+    var pkg = _fs2.default.existsSync(pkgPath) ? require(pkgPath) : <span class="branch-1 cbranch-no" title="branch not covered" >{ 'main': 'index.js' };</span>
     var mainPath = (0, _util.normalizePath)(_path2.default.dirname(_path2.default.resolve(moduleRoot, pkg.main)));
 &nbsp;
     // Sort paths by the “main” entry first.
@@ -578,7 +580,7 @@ var ModuleCache = function (_MapCache) {
   _createClass(ModuleCache, null, [{
     key: 'resolve',
     value: function resolve(id) {
-      var from = arguments.length &gt; 1 &amp;&amp; arguments[1] !== undefined ? arguments[1] : <span class="branch-1 cbranch-no" title="branch not covered">process.cwd();</span>
+      var from = arguments.length &gt; 1 &amp;&amp; arguments[1] !== undefined ? arguments[1] : <span class="branch-1 cbranch-no" title="branch not covered" >process.cwd();</span>
 &nbsp;
       try {
         var dirs = _path2.default.dirname(_module2.default._resolveFilename(id, (0, _assign3.default)(new _module2.default(), {
@@ -592,11 +594,11 @@ var ModuleCache = function (_MapCache) {
           var dirPath = dirSub.join('/');
           var pkgPath = _path2.default.join(dirPath, 'package.json');
 &nbsp;
-          <span class="missing-if-branch" title="else path not taken">E</span>if (length &amp;&amp; dirs[length - 1] == 'node_modules' || <span class="branch-2 cbranch-no" title="branch not covered">_fs2.default.existsSync(pkgPath) </span>&amp;&amp; <span class="branch-3 cbranch-no" title="branch not covered">require(pkgPath).name == id)</span> {
+          <span class="missing-if-branch" title="else path not taken" >E</span>if (length &amp;&amp; dirs[length - 1] == 'node_modules' || <span class="branch-2 cbranch-no" title="branch not covered" >_fs2.default.existsSync(pkgPath) </span>&amp;&amp; <span class="branch-3 cbranch-no" title="branch not covered" >require(pkgPath).name == id)</span> {
             return dirPath;
           }
         }
-<span class="cstat-no" title="statement not covered">        return dirs.join('/');</span>
+<span class="cstat-no" title="statement not covered" >        return dirs.join('/');</span>
       } catch (e) {}
       return '';
     }
@@ -609,11 +611,10 @@ exports.default = ModuleCache;
 ;
 module.exports = exports['default'];
 &nbsp;</pre></td></tr>
-</tbody></table></pre>
+</table></pre>
 </div>
 <div class="footer">
-    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Sat Apr 15 2017 20:01:54 GMT+0000 (UTC)</div>
+    <div class="meta">Generated by <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a> at Wed Apr 19 2017 05:48:34 GMT+0000 (UTC)</div>
 </div>
-
-
-</body></html>
+</body>
+</html>

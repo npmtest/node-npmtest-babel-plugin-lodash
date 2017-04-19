@@ -1,4 +1,7 @@
-# test coverage for  [babel-plugin-lodash (v3.2.11)](https://github.com/lodash/babel-plugin-lodash#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-babel-plugin-lodash.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-babel-plugin-lodash) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-babel-plugin-lodash.svg)](https://travis-ci.org/npmtest/node-npmtest-babel-plugin-lodash)
+# npmtest-babel-plugin-lodash
+
+#### test coverage for  [babel-plugin-lodash (v3.2.11)](https://github.com/lodash/babel-plugin-lodash#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-babel-plugin-lodash.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-babel-plugin-lodash) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-babel-plugin-lodash.svg)](https://travis-ci.org/npmtest/node-npmtest-babel-plugin-lodash)
+
 #### Modular Lodash builds without the hassle.
 
 [![NPM](https://nodei.co/npm/babel-plugin-lodash.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/babel-plugin-lodash)
@@ -9,11 +12,17 @@
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-babel-plugin-lodash/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-babel-plugin-lodash/build/test-report.html)|
 | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-babel-plugin-lodash/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-babel-plugin-lodash/tree/gh-pages/build)|
 
-[![istanbul-coverage](https://npmtest.github.io/node-npmtest-babel-plugin-lodash/build/screenCapture.buildCi.browser.coverage.example.html.png)](https://npmtest.github.io/node-npmtest-babel-plugin-lodash/build/coverage.html/index.html)
+- [https://npmtest.github.io/node-npmtest-babel-plugin-lodash/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-babel-plugin-lodash/build/coverage.html/index.html)
 
-[![test-report](https://npmtest.github.io/node-npmtest-babel-plugin-lodash/build/screenCapture.buildCi.browser.test-report.html.png)](https://npmtest.github.io/node-npmtest-babel-plugin-lodash/build/test-report.html)
+[![istanbul-coverage](https://npmtest.github.io/node-npmtest-babel-plugin-lodash/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fcoverage.lib.html.png)](https://npmtest.github.io/node-npmtest-babel-plugin-lodash/build/coverage.html/index.html)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-babel-plugin-lodash/build/screenCapture.buildCi.browser.apidoc.html.png)](https://npmdoc.github.io/node-npmdoc-babel-plugin-lodash/build/apidoc.html)
+- [https://npmtest.github.io/node-npmtest-babel-plugin-lodash/build/test-report.html](https://npmtest.github.io/node-npmtest-babel-plugin-lodash/build/test-report.html)
+
+[![test-report](https://npmtest.github.io/node-npmtest-babel-plugin-lodash/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Ftest-report.html.png)](https://npmtest.github.io/node-npmtest-babel-plugin-lodash/build/test-report.html)
+
+- [https://npmdoc.github.io/node-npmdoc-babel-plugin-lodash/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-babel-plugin-lodash/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-babel-plugin-lodash/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-babel-plugin-lodash/build/apidoc.html)
 
 ![npmPackageListing](https://npmtest.github.io/node-npmtest-babel-plugin-lodash/build/screenCapture.npmPackageListing.svg)
 
